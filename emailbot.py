@@ -29,7 +29,7 @@ def send_email(receiver, subject, message):
     server.starttls()
     # Make sure to give app access in your Google account\
 
-    server.login('projectassistantver2@gmail.com', '6thsemproject@python')
+    server.login('projectassistantver2@gmail.com', 'pass')
     email = EmailMessage()
     email['From'] = 'Sender_Email'
     email['To'] = receiver
